@@ -114,10 +114,10 @@ public class StreamSpeechTask implements Runnable {
     @Override
     public void run() {
         // TODO 申请智能云 appKey appSecret
-        String from = "源语言";
-        String to = "目标语言";
-        String appKey = "您的应用ID";
-        String appSecret = "您的应用密钥";
+        String from = "zh-CHS";
+        String to = "en";
+        String appKey = "055526ea49ae56b1";
+        String appSecret = "rqjICvpjtQ5zAHMC3AHD6z5ZEQT4D04z";
         try {
             streamSpeech(appKey, appSecret, from, to);
         } catch (NoSuchAlgorithmException e) {
